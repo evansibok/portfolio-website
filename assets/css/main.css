@@ -188,6 +188,7 @@ input, select, textarea {
 
 	h1 {
 		font-size: 2.75em;
+		text-transform: uppercase;
 	}
 
 		h1.major {
@@ -3209,6 +3210,15 @@ input, select, textarea {
 			padding: 5em 5em 3em 5em ;
 			max-width: 100%;
 			width: 75em;
+			
+			/* Custom */
+			display: flex;
+			flex-direction: column;
+			-moz-justify-content: center;
+			-webkit-justify-content: center;
+			-ms-justify-content: center;
+			justify-content: center;
+			align-items: center;
 		}
 
 			@media screen and (max-width: 1680px) {
@@ -3223,6 +3233,8 @@ input, select, textarea {
 
 				.wrapper > .inner {
 					width: 100%;
+
+					
 				}
 
 			}
